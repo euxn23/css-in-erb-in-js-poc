@@ -1,5 +1,18 @@
 {
   "name": "css-in-erb-in-js-poc",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "description": "PoC of CSS in ERB in JS",
+  "repository": "https://github.com/euxn23/css-in-erb-in-js-poc",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "euxn23",
+  "license": "ISC"
 }
