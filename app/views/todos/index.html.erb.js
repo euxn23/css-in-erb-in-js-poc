@@ -1,9 +1,17 @@
+const commonBorder = require('../../styles/todos/common-border')
+
 module.exports = () => `
+<style>
+th, td {
+  ${commonBorder}
+}
+</style>
+
 <p id="notice"><%= notice %></p>
 
 <h1>Todos</h1>
 
-<table>
+<table style="${commonBorder}">
   <thead>
     <tr>
       <th>Name</th>
