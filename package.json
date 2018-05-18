@@ -11,8 +11,12 @@
     "test": "test"
   },
   "scripts": {
+    "build:erb": "node ./build-erb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "euxn23",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "readdir-recursively-sync": "^0.1.1"
+  }
 }
